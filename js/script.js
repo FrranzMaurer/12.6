@@ -3,6 +3,8 @@ var countriesList = document.getElementById('countries');
 
 document.getElementById('search').addEventListener('click', searchCountries);
 
+
+
 function searchCountries() {
     var countryName = document.getElementById('country-name').value;
     if(!countryName.length) countryName = 'Poland';
